@@ -1,0 +1,53 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\gianr\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add express uuid typeorm reflect-metadata pg dontenv
+
+PATH: 
+  C:\Users\gianr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\gianr\bin;C:\Python310\Scripts;C:\Python310;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Users\gianr\AppData\Local\Programs\Python\Python39;C:\Users\gianr\AppData\Local\Programs\Python\Python39\Scripts;C:\Program Files\PuTTY;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\ProgramData\chocolatey\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\gianr\AppData\Local\Microsoft\WindowsApps;C:\Users\gianr\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\gianr\AppData\Local\GitHubDesktop\bin;C:\Users\gianr\AppData\Roaming\npm;C:\Program Files\heroku\bin;C:\Program Files\PostgreSQL\14\bin;C:\Program Files\mongosh-1.5.0-win32-x64\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  17.5.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/dontenv: Not found
+      at Request.params.callback [as _callback] (C:\Users\gianr\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66138:18)
+      at Request.self.callback (C:\Users\gianr\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140883:22)
+      at Request.emit (node:events:526:28)
+      at Request.<anonymous> (C:\Users\gianr\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141855:10)
+      at Request.emit (node:events:526:28)
+      at IncomingMessage.<anonymous> (C:\Users\gianr\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141777:12)
+      at Object.onceWrapper (node:events:645:28)
+      at IncomingMessage.emit (node:events:538:35)
+      at endReadableNT (node:internal/streams/readable:1342:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "m4-sprint5-entrega",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+      "test": "NODE_ENV=test jest"
+    },
+    "devDependencies": {
+      "@types/jest": "^28.1.3",
+      "@types/supertest": "^2.0.12",
+      "jest": "27.5.1",
+      "sqlite3": "^5.0.8",
+      "supertest": "^6.2.3",
+      "ts-jest": "^28.0.5",
+      "typescript": "^4.6.4"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

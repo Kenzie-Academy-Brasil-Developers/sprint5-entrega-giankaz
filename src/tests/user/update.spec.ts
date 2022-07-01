@@ -50,6 +50,9 @@ describe("Teste para metodo PATCH em /users/:id", () => {
 
     const responseGet = await request(app).get(`/users/${response1.body.id}`);
 
+    console.log(responsePatch.body);
+    
+
     expect(responsePatch.status).toEqual(200);
     expect(responsePatch.body).toHaveProperty("message");
 

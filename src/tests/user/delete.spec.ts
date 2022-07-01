@@ -37,10 +37,13 @@ describe("Teste para metodo DELETE em /users/:id", () => {
   });
 
   test("Tentando deletar um usuário", async () => {
+ 
+    
     const responseDelete = await request(app).delete(
       `/users/${response1.body.id}`
     );
 
+    console.log(responseDelete.status)
     expect(responseDelete.status).toEqual(200);
     expect(responseDelete.body).toHaveProperty("message");
   });

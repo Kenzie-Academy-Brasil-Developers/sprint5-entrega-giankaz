@@ -26,6 +26,7 @@ describe("Teste para metodo POST em /users", () => {
 
   test("Tentando criar um usuário", async () => {
     const response = await request(app).post("/users").send(testUser);
+    console.log(response.body)
 
     expect(response.status).toEqual(201);
     expect(response.body.id.length).toEqual(36);
